@@ -1,4 +1,7 @@
-# DREAMLEAP GYMSTARS V2
-Flat-file HTML/CSS/JavaScript PWA starter. All files are at repository root for easy upload from iPhone/iPad. Modules remain separate through descriptive filenames.
+# DREAMLEAP GYMSTARS V2 — Full UI Migration
 
-This is a UI starter only. Authentication, secure database access, production storage and real push notifications are not connected yet. Use HTTPS or localhost for service worker support.
+A modular, flat-file HTML/CSS/JavaScript recreation of the original GymStars Phase 1 demo.
+
+All files are at repository root for straightforward iPad uploads. Main areas include Coach/Admin, Family Space, Parent View and Kids Mode. Demo state is saved in localStorage using the original key `dreamleap-gymstars-demo-v1`.
+
+This remains a front-end demo. It does not provide real authentication, server-side permissions, secure multi-device data sync, or production push notifications. Do not enter real student data.

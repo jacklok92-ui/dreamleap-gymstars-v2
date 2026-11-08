@@ -1,1 +1,1 @@
-export function getRoute(){return(location.hash.slice(1)||'home').toLowerCase()}export function navigate(path){location.hash='#'+path}
+export function routeFromHash(){const p=location.hash.replace(/^#\/?/,'').split('/');return{space:p[0]||'welcome',tab:p[1]||'home'}}export function setRoute(space,tab='home'){location.hash=space==='welcome'?'#welcome':`#${space}/${tab}`}
