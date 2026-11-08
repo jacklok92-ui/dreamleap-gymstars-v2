@@ -1,0 +1,1 @@
+export function coach(){return `<section class="page"><div class="eyebrow">Coach workspace · Preview</div><h2>Coach Dashboard</h2><p>Student management, classes, attendance, skill assessments and rewards will be built here as separate modules.</p><button class="back" data-go="home">← Back to Home</button></section>`}

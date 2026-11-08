@@ -1,0 +1,1 @@
+const P='dreamleap-gymstars-v2:';export function readData(k,fallback=null){try{const v=localStorage.getItem(P+k);return v===null?fallback:JSON.parse(v)}catch{return fallback}}export function writeData(k,v){localStorage.setItem(P+k,JSON.stringify(v))}

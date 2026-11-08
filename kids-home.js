@@ -1,0 +1,1 @@
+export function kids(){return `<section class="page"><div class="eyebrow">Your star adventure · Preview</div><h2>Hello, Little Star! ⭐</h2><p>Your skills, badges, star points and weekly challenges will live here.</p><button class="back" data-go="home">← Back to Home</button></section>`}

@@ -1,0 +1,1 @@
+export function family(){return `<section class="page"><div class="eyebrow">Family experience · Preview</div><h2>Welcome, Family!</h2><p>Parents can follow class schedules, attendance, skill progress, badges and rewards here.</p><button class="back" data-go="home">← Back to Home</button></section>`}

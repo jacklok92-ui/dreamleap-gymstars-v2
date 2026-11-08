@@ -1,0 +1,1 @@
+export function getRoute(){return(location.hash.slice(1)||'home').toLowerCase()}export function navigate(path){location.hash='#'+path}
